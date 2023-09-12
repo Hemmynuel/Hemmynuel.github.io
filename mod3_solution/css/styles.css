@@ -1,0 +1,103 @@
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  height: 70px;
+}
+
+section {
+  background-color: grey;
+  padding: 20px 30px 20px 30px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  height: 50px;
+}
+
+/* Hamburger Icon Styles */
+.hamburger {
+  cursor: pointer;
+  font-size: 24px;
+}
+.menu a {
+  color: black;
+}
+/* Dropdown Menu Styles */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 75px;
+  right: 20px;
+  width: 34em;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.dropdown.active {
+  display: block;
+}
+
+/* Menu Item Styles */
+.dropdown-item {
+  cursor: pointer;
+  padding: 5px 0;
+  text-align: center;
+}
+
+/* Content Styles */
+.content {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* Specific Content Styles */
+.content.chicken {
+  background-color: grey;
+}
+
+.content.beef {
+  background-color: grey;
+}
+
+.content.sushi {
+  background-color: grey;
+}
+.div-to-show-on-mobile {
+  display: none; /* Initially hide the div */
+}
+.mobile-menu {
+  display: none;
+}
+@media (max-width: 725px) {
+  .div-to-show-on-mobile {
+    display: block;
+  } /* Show the div on mobile screens */
+  .desktop-content {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+    text-align: center;
+  }
+}
+.menu {
+  text-align: center;
+}
+.dropdown :hover {
+  background: #E7E7E7;}
+  .mobile-menu a{
+    color: black;
+  }
+
+ #content {
+    background-color: Grey;
+  }
